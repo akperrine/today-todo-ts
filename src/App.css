@@ -1,0 +1,21 @@
+:root {
+  --primary: #023047;
+  --secondary: #219ebc;
+  --tertiary: #ffb703;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--primary);
+  padding-bottom: 20px;
+}
+
+.heading {
+  background-color: var(--tertiary);
+  color: var(--primary);
+  padding: 15px 0 5px;
+  margin: 0;
+  font-size: 2.5rem;
+}

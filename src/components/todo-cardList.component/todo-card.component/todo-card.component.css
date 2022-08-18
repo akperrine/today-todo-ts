@@ -1,0 +1,36 @@
+.todo-card {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: var(--secondary);
+  margin: 20px;
+  width: 60%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: 600;
+  overflow: scroll;
+  /* transition: 0.2s; */
+}
+
+.todo-text,
+.todo-icon {
+  justify-content: space-between;
+  flex: 1;
+}
+
+.todo-input {
+  border: none;
+  font-size: 25px;
+}
+
+.todo-input:focus {
+  outline: none;
+}
+
+.todo-icon {
+  cursor: pointer;
+}
