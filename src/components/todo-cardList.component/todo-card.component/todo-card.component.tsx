@@ -57,12 +57,9 @@ const TodoCard = ({ aTodo, todoList, setTodoList }: ITodoCardProps) => {
   return (
     <form className="todo-card" onSubmit={(e) => editInputSubmit(e, aTodo.id)}>
       {editable ? (
-        <input
-          ref={inputRef}
-          className="todo-input"
-          onChange={editInput}
-          value={editTodo}
-        />
+        <div className="todo-input-box">
+          <input ref={inputRef} onChange={editInput} value={editTodo} />
+        </div>
       ) : aTodo.complete ? (
         <s className="todo-text">{aTodo.content}</s>
       ) : (

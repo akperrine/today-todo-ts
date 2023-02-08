@@ -22,12 +22,20 @@
   flex: 1;
 }
 
-.todo-input {
-  border: none;
-  font-size: 25px;
+.todo-input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35%;
 }
 
-.todo-input:focus {
+.todo-input-box > input {
+  border: none;
+  font-size: 25px;
+  width: 200px;
+}
+
+.todo-input-box > input:focus {
   outline: none;
 }
 
